@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package test2companya;
 
 
@@ -18,7 +14,7 @@ public class SimpleThreads extends Thread {
            public static void main (String[] args){
                SimpleThreads sample=new SimpleThreads();
                sample.start();
-               try{Thread.sleep(50);}
+               try{Thread.sleep(500);}
                catch(Exception ex){}
                sample.finished=true;
            }
